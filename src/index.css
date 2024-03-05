@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.maskertext{
+    font-family: "Oswald";
+}
+.marquee{
+    font-family: "Oswald";
+}
+.about{
+    font-family: "Neue Montreal";
+}
+.play{
+    font-family: "General Sans";
+}
+.featured{
+    font-family: "Neue Montreal";
+}
+.heading{
+    font-family: "Oswald";
+}
+.button-text{
+    font-family: "Neue Montreal";
+}
+.ready{
+    font-family: "Oswald";
+}
+.footer-text{
+    font-family: "Oswald";
+}
+.start-text{
+    font-family: "Neue Montreal";
+}
+.start-text:hover{
+    background-color: white;
+    color: black;
+    transition: all 1s;
+    transition-timing-function:cubic-bezier(0.1, 0.3, 0.3, 1.5);
+}
